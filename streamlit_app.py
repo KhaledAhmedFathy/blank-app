@@ -22,5 +22,5 @@ user_input = input("Please enter your input: ")
 response = get_response(user_input)
 
 # Print the response
-print("Copilot response:", response)
+st.print("Copilot response:", response)
 
