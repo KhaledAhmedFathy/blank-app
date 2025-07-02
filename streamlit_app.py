@@ -1,11 +1,9 @@
 import streamlit as st
+import tkinter as tk
+from tkinter import simpledialog
 
 st.title("🎈 Transformers Learning Challenge")
 st.write("Khaled Fathy")
-
-
-import tkinter as tk
-from tkinter import simpledialog
 
 # Create the root window
 root = tk.Tk()
