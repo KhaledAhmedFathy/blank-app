@@ -1,9 +1,7 @@
 import streamlit as st
+import openai
 st.title("🎈 Transformers Learning Challenge")
 st.write("Khaled Fathy")
-
-
-import openai
 
 # Set your OpenAI API key
 openai.api_key = 'your-api-key'
