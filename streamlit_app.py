@@ -8,8 +8,6 @@ AI_output = st.text_input("Summary")
 
 
 from transformers import pipeline
-!pip install streamlit
-import streamlit as st
 summarizer = pipeline("summarization", model="t5-small")
 st.title("🎈AI Summarization Web App")
 st.write("Past your text & click summarize")
