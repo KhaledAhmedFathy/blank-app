@@ -1,6 +1,4 @@
 import streamlit as st
-from transformers import pipeline
-summarizer = pipeline("summarization", model="t5-small")
 
 st.title("🎈AI Summarization Web App")
 st.write("Past your text & click summarize")
