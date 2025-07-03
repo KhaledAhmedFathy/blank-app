@@ -1,10 +1,11 @@
 import streamlit as st
-st.title("🎈 Summarization App")
-st.write("Khaled Fathy")
-x = st.button("What do you need to summarize?")
-print(x)
+st.title("🎈AI Summarization Web App")
+st.write("Developed by Khaled Fathy")
+
 y = st.button("Summary")
 print(y)
-user_input = st.text_input("label goes here")
+user_input = st.text_input("What do you need to summarize")
+x = st.button("Summarize")
+print(x)
 
 
