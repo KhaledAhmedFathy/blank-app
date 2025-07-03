@@ -5,6 +5,6 @@ x = st.button("What do you need to summarize?")
 print(x)
 y = st.button("Summary")
 print(y)
-user_input = st.text_input("label goes here", default_value_goes_here)
+user_input = st.text_input("label goes here")
 
 
