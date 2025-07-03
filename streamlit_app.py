@@ -11,7 +11,7 @@ st.write(user_input)
 prompt = "summarize:" + user_input
 input = prompt
 print(input)
-Summary = summarizer(input,max_length=70)
+##Summary = summarizer(input,max_length=70)
 print(output)
 st.write(output)
 
