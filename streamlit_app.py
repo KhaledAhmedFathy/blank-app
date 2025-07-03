@@ -12,5 +12,5 @@ input = prompt
 print(input)
 ##Summary = summarizer(input,max_length=70)
 ##print(output)
-st.write(output)
+##st.write(output)
 
