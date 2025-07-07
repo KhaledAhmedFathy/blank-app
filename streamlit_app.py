@@ -14,3 +14,35 @@ print(input)
 ##Summary = summarizer(input,max_length=70)
 ##print(output)
 
+
+from flask import Flask, render_template_string, request
+
+app = Flask(__name__)
+
+HTML = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Press Example</title>
+</head>
+<body>
+    <h1>Press the Button</h1>
+    <form method="POST">
+        <button type="submit">Click Me!</button>
+    </form>
+    {% if output %}
+        <p><strong>Output:</strong> {{ output }}</p>
+    {% endif %}
+</body>
+</html>
+"""
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+    output = None
+    if request.method == "POST":
+        output = "Button was pressed!"
+    return render_template_string(HTML, output=output)
+
+if __name__ == "__main__":
+    app.run(debug=True)
