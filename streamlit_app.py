@@ -17,13 +17,10 @@ print(input)
 
 
 from flask import Flask, render_template_string, request
-
 app = Flask(__name__)
-
 HTML = """https://blank-app-oqw4o31zmd.streamlit.app/"""
-
-@app.route("/", methods=["GET", "POST"])
-def index():
+#@app.route("/", methods=["GET", "POST"])
+#def index():
 #output = user_input
 #if request.method == "POST":
 #output = "Button was pressed!"
