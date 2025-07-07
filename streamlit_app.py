@@ -24,7 +24,7 @@ HTML = """https://blank-app-oqw4o31zmd.streamlit.app/"""
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-  #output = user_input
-  #if request.method == "POST":
-  #output = "Button was pressed!"
-  #return render_template_string(HTML, output=output)
+#output = user_input
+#if request.method == "POST":
+#output = "Button was pressed!"
+#return render_template_string(HTML, output=output)
