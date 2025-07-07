@@ -7,7 +7,7 @@ x = st.button("Summarize")
 print(x)
 #AI_output = st.text_input("Summary")
 st.write(user_input,max_length=5)
-prompt = "summarize:" + (user_input, max_length=5)
+prompt = "summarize:" + user_input
 input = prompt
 print(input)
 ##Summary = summarizer(input,max_length=70)
