@@ -13,7 +13,7 @@ print(input)
 ##Summary = summarizer(input,max_length=70)
 ##print(output)
 
-from flask import Flask
+import Flask
 app = Flask(__name__)
 HTML = """https://blank-app-oqw4o31zmd.streamlit.app/"""
 #@app.route("/", methods=["GET", "POST"])
