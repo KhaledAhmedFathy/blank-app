@@ -39,7 +39,7 @@ HTML = """
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    output = (user_input,max_length=10)
+    output = user_input,max_length=10
     if request.method == "POST":
         output = "Button was pressed!"
     return render_template_string(HTML, output=output)
