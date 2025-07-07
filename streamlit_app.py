@@ -8,7 +8,7 @@ print(x)
 #AI_output = st.text_input("Summary")
 
 if st.click(x)
-st.write(user_input,max_length=5)
+st.write("Summary is: ",user_input,max_length=5)
 prompt = "summarize:" + user_input
 input = prompt
 print(input)
