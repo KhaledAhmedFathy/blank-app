@@ -1,5 +1,5 @@
 import streamlit as st
-
+pip install flask
 st.title("🎈AI Summarization Web App")
 st.write("Past your text & click summarize")
 user_input = st.text_input("Text")
