@@ -5,13 +5,8 @@ st.write("Past your text & click summarize")
 user_input = st.text_input("Text")
 x = st.button("Summarize")
 print(x)
-st.write(user_input,max_length=5)
-#prompt = "summarize:" + user_input
-#input = prompt
-#print(input)
+st.write(user_input)
 
 
-##Summary = summarizer(input,max_length=70)
-##print(output)
-#AI_output = st.text_input("Summary")
+
 
